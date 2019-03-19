@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "NetworkManager"
-  spec.version      = "0.0.1"
+  spec.name         = "NetworkManagerFramework"
+  spec.version      = "1.0.0"
   spec.summary      = "Its basically user for network communication."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   NetworkManagerFramework is basically use for api communication. Its having only one entry point with its completion to respond caller.
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/NetworkManagerFramework"
+  spec.homepage     = "https://github.com/yogeshtatwalgwl/NetworkManagerFramework"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+#spec.license      = "MIT (example)"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
+  spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/yogeshtatwalgwl/NetworkManagerFramework.git", :tag => "#{1.0.0}" }
+  spec.source       = { :git => "https://github.com/yogeshtatwalgwl/NetworkManagerFramework.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "NetworkManager/Source", "NetworkManager/Source/*.swift"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
