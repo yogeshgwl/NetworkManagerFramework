@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NetworkManagerFramework"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "Its basically user for network communication."
 
   # This description is used to generate tags and improve search results.
